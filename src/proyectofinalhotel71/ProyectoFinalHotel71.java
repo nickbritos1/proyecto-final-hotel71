@@ -5,6 +5,9 @@
  */
 package proyectofinalhotel71;
 
+import java.sql.Connection;
+import proyectofinalhotel71.accesoADatos.conexion;
+
 /**
  *
  * @author brito
@@ -16,6 +19,9 @@ public class ProyectoFinalHotel71 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        
+        Connection con = conexion.getConexion();
     }
     
 }
